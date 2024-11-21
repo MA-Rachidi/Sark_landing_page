@@ -1,0 +1,82 @@
+#t1 {
+  color: var(--White-Theme-Gray---8, #2E2E3A);
+  font-family: Inter;
+  font-size: 0.74375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.85rem;
+  margin-bottom: 11.5px;
+}
+
+#t2 {
+  color: var(--White-Theme-Gray---8, #2E2E3A);
+  font-family: Inter;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 90%;
+  margin-bottom: 7.5px;
+}
+
+#t3 {
+  color: var(--Accents-Verdepom, #24CA49);
+  font-family: Inter;
+  font-size: 0.74375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0.85rem;
+}
+
+#t4 {
+  color: var(--Light-Grayscale-100, #1C1C1C);
+  font-family: Inter;
+  font-size: 2.43025rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  margin-bottom: 10px;
+}
+
+#t5 {
+  color: var(--Light-Grayscale-300, #969696);
+  font-family: Inter;
+  font-size: 0.81006rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+#t6 {
+  color: var(--Light-Green-Base, #00BA34);
+  text-align: center;
+  font-family: Inter;
+  font-size: 0.65819rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 153%;
+}
+
+#t7 {
+  color: var(--Light-Grayscale-100, #1C1C1C);
+  font-family: Inter;
+  font-size: 0.81006rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+#icon-game {
+  position: relative;
+  z-index: 51;
+}
+
+#icon-home {
+  position: relative;
+  transform: translateX(-35%);
+  z-index: 50;
+}
+
+#icon-car {
+  position: relative;
+  transform: translateX(-70%);
+}

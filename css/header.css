@@ -1,0 +1,116 @@
+header {
+  background: linear-gradient(180deg, #EEF3FE 0%, rgba(242, 242, 242, 0.38) 100%);
+  padding-top: 1.3rem;
+  padding-bottom: 50rem;
+  max-height: 67rem;
+  overflow: hidden;
+}
+
+/*----- barre Section -----*/
+
+.barre-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90rem;
+  margin: 0 auto;
+}
+
+.menu ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.menu ul li a {
+  color: var(--1, #201F22);
+  text-align: center;
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+/*------ hero Section ------*/
+
+.hero-sec {
+  display: flex;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+/*------ hero right Section ------*/
+
+.hero-sec .right {
+  min-width: 50%;
+  padding: 7em 9rem;
+  flex-shrink: 1;
+}
+
+.hero-sec .right .content1 {
+  color: var(--blue-gray-900, #0F172A);
+  font-family: "Plus Jakarta Sans";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.125rem;
+  margin: 0;
+}
+
+.hero-sec .right .content2 {
+  color: var(--blue-gray-900, #0F172A);
+  font-family: "Plus Jakarta Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  margin: 1.5rem 0;
+}
+
+.hero-sec .freetri {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 1.5rem;
+}
+
+.hero-sec .freetri p {
+  margin: 0;
+}
+
+.hero-sec .rating {
+  display: flex;
+  gap: 0.6em;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.hero-sec .rating .trust {
+  margin-right: 0.7rem;
+  padding-bottom: 6px;
+}
+
+.hero-sec .rating .rate {
+  color: var(--blue-gray-700, #334155);
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  opacity: 0.7;
+  margin: 0;
+}
+
+/*------ hero left Section ------*/
+
+.hero-sec .left {
+  transform: translate(4%);
+}
+
+.hero-sec .left .img{
+  filter: drop-shadow(0px 38.456px 55.548px rgba(0, 0, 0, 0.08));
+}
+

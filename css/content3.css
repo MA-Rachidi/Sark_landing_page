@@ -1,0 +1,115 @@
+.content3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content3 .wrapper {
+  justify-content: space-between;
+}
+
+.content3 .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 34%;
+}
+
+.content3 .left h2 {
+  text-align: left;
+}
+
+.content3 .left p {
+  color: var(--gray-700, #3F3F46);
+  font-family: "Plus Jakarta Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+  margin-top: 1.6rem;
+  margin-bottom: 2.6rem;
+}
+
+.content3 .right {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.content3 .right img {
+  align-self: flex-start;
+  border-radius: 4.23px;
+  background: var(--white, #FFF);
+  box-shadow: 0px 6.344px 19.033px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* ----- closedeals section ----- */
+
+.content3 .right .closedeals {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 211px;
+  height: 159px;
+  padding: 18.5px;
+  border-radius: 9px;
+  background: #FFF;
+  box-shadow: 0px 3.709px 55.631px 0px rgba(0, 0, 0, 0.08);
+  align-self: end;
+  position: relative;
+  transform: translate(58%, 14%);
+}
+
+.closedeals .check {
+  display: flex;
+  align-items: center;
+}
+
+.closedeals .check .checkmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  background: #2B59FF;
+}
+
+.closedeals .check .checkmark p {
+  color: #FFF;
+  font-size: 10px;
+}
+
+.closedeals .check .checkbox {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #D5D5D5;
+  border-radius: 4px;
+}
+
+.closedeals .check img {
+  border-radius: 50%;
+  margin-right: 11px;
+  margin-left: 22px;
+}
+
+.closedeals p {
+  color: var(--table_black, #323C47);
+  font-family: Inter;
+  font-size: 0.86925rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.00869rem;
+  margin: 0;
+  margin-bottom: 0px;
+}
+
+.closedeals .line {
+  width: 169px;
+  height: 1px;
+  opacity: 0.05;
+  background: #12141D;
+}

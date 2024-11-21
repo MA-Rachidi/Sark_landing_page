@@ -1,0 +1,23 @@
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features .wrapper {
+  flex-direction: column;
+  margin-top: 0;
+  margin-bottom: 6.25rem;
+}
+
+.features .content {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  row-gap: 3rem;
+  column-gap: 9rem;
+  margin: 5rem 8rem;
+}
+
+.features button {
+  align-self: center;
+}

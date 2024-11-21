@@ -1,0 +1,37 @@
+.content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--blue-gray-50, #F8FAFC);
+}
+
+.content2 .wrapper {
+  gap: 9.62rem;
+}
+
+.content2 .left img {
+  border-radius: 0.22225rem;
+  background: var(--Light-Background-Primary, #FFF);
+  box-shadow: 0px 3.69px 55.349px 0px rgba(0, 0, 0, 0.08);
+}
+
+.content2 .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content2 .right p {
+  color: var(--gray-700, #3F3F46);
+  font-family: "Plus Jakarta Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 162.5%;
+  margin-top: 1.6rem;
+  margin-bottom: 2.6rem;
+}
+
+.content2 .right button {
+  align-self: flex-start;
+}
